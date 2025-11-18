@@ -54,7 +54,6 @@ const Projects = () => {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         
-        {/* Heading */}
         <h2
           className="
             text-5xl font-extrabold text-center mb-16
@@ -109,9 +108,12 @@ const Projects = () => {
                 </ul>
 
                 <div className="flex gap-4 mt-6">
+
+                  {/* ✔️ ESLint FIX: Added rel */}
                   <a
                     href={proj.github}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="
                       px-4 py-2 rounded-lg text-white 
                       bg-slate-800/80 border border-slate-700
@@ -122,9 +124,11 @@ const Projects = () => {
                     Source Code
                   </a>
 
+                  {/* ✔️ ESLint FIX: Added rel */}
                   <a
                     href={proj.live}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="
                       px-4 py-2 rounded-lg text-white 
                       bg-indigo-600/80 border border-indigo-500
@@ -143,7 +147,6 @@ const Projects = () => {
         </div>
       </div>
 
-      {/* Animation */}
       <style>{`
         @keyframes slow-spin {
           from { transform: rotate(0deg); }

@@ -30,7 +30,7 @@ const Projects = () => {
         "Deployed on Railway & Vercel/Netlify.",
       ],
       github: "https://github.com/yourgithub/zennote",
-      live: "https://your-zennote-deployed-link.com",
+      live: "https://zennotef.netlify.app/",
     },
   ];
 
@@ -160,4 +160,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Projects; 

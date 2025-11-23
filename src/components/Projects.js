@@ -29,7 +29,7 @@ const Projects = () => {
         "Redux-powered real-time CRUD, error handling & validation.",
         "Deployed on Railway & Vercel/Netlify.",
       ],
-      github: "https://github.com/yourgithub/zennote",
+      github: "https://github.com/jmeena7/Zennote-Frontend",
       live: "https://zennotef.netlify.app/",
     },
   ];

@@ -19,7 +19,7 @@ const Projects = () => {
         "Debounced search, caching, dynamic cards, auth, Razorpay payment.",
         "Tech: React.js, SQL, Tailwind CSS, Firebase.",
       ],
-      github: "https://github.com/jmeena7/Namstay_React",
+      github: "https://github.com/jmeena7/Namstay_React1",
       live: "https://your-meena-eats-deployed-link.com",
     },
     {
